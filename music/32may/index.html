@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://aloeband.github.io/music/32may/index.html">
 <meta property="og:site_name" content="Группа «Алоэ»">
 <meta property="og:description" content="Бычков Игорь — вокал, контрабасБагмет Юра — рояль, бэк—вокал (12, 14)Птушка Рома — гитары, контрабас, бэк—вокал, перкуссияБельцер Таня — скрипка, бэк—вокалЧекусов Стас — трубаБеркалов Женя — барабаны,">
-<meta property="og:updated_time" content="2015-07-04T15:13:54.651Z">
+<meta property="og:updated_time" content="2015-07-04T15:20:52.737Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="«32 мая», 1996">
 <meta name="twitter:description" content="Бычков Игорь — вокал, контрабасБагмет Юра — рояль, бэк—вокал (12, 14)Птушка Рома — гитары, контрабас, бэк—вокал, перкуссияБельцер Таня — скрипка, бэк—вокалЧекусов Стас — трубаБеркалов Женя — барабаны,">
@@ -126,6 +126,108 @@
 //<![CDATA[
 $(document).ready(function(){
 
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+		{
+			title:"1. Земля",
+			free:true,
+			mp3:"01-zemlia.mp3",
+            oga:"01-zemlia.ogg"
+		},
+		{
+			title:"2. Маленькие радости",
+			free:true,
+			mp3:"02-malenkie.radosti.mp3",
+			oga:"02-malenkie.radosti.ogg"
+		},
+		{
+			title:"3. Водолаз-II",
+			free:true,
+			mp3:"03-vodolaz2.mp3",
+			oga:"03-vodolaz2.ogg"
+		},
+		{
+			title:"4. Вестерн",
+            free:true,
+			mp3:"04-vestern.mp3",
+			oga:"04-vestern.ogg"
+		},
+		{
+			title:"5. Птицы",
+			free:true,
+			mp3:"05-pticy.mp3",
+			oga:"05-pticy.ogg"
+		},
+		{
+			title:"6. Отелло",
+            free:true,
+			mp3:"06-otello.mp3",
+			oga:"06-otello.ogg"
+		},
+		{
+			title:"7. Козёл",
+            free:true,
+			mp3:"07-kozel.mp3",
+			oga:"07-kozel.ogg"
+		},
+		{
+			title:"8. Ной & Ноль",
+            free:true,
+			mp3:"08-noy.i.nol.mp3",
+			oga:"08-noy.i.nol.ogg"
+		},
+		{
+			title:"9. Забрало",
+            free:true,
+			mp3:"09-zabralo.mp3",
+			oga:"09-zabralo.ogg"
+		},
+		{
+			title:"10. Возьми Меня в плен",
+            free:true,
+			mp3:"10-vozmi.menia.v.plen.mp3",
+			oga:"10-vozmi.menia.v.plen.ogg"
+		},
+		{
+			title:"11. Блюз",
+            free:true,
+			mp3:"",
+			oga:""
+		},
+		{
+			title:"12. Шуми, мой лес, шуми",
+            free:true,
+			mp3:"12-shumi.moy.les.mp3",
+			oga:"12-shumi.moy.les.ogg"
+		},
+		{
+			title:"13. Детка",
+            free:true,
+			mp3:"12-detka.mp3",
+			oga:"12-detka.ogg"
+		},
+		{
+			title:"14. Мой народ",
+            free:true,
+			mp3:"13-moy.narod.mp3",
+			oga:"13-moy.narod.ogg"
+		}
+	], {
+        solution: "html, flash",
+		swfPath: "http://jplayer.org/latest/dist/jplayer/jquery.jplayer.swf",
+		supplied: "mp3, oga",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+
 <div id="jquery_jplayer_1" class="jp-jplayer"></div>
 <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
 	<div class="jp-type-playlist">
@@ -168,98 +270,6 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-
-	new jPlayerPlaylist({
-		jPlayer: "#jquery_jplayer_1",
-		cssSelectorAncestor: "#jp_container_1"
-	}, [
-		{
-			title:"1. Земля",
-			free:true,
-			mp3:"01-zemlia.mp3",
-            oga:"01-zemlia.ogg"
-		},
-		{
-			title:"2. Маленькие радости",
-			free:true,
-			mp3:"02-malenkie.radosti.mp3",
-			oga:"02-malenkie.radosti.ogg"
-		},
-		{
-			title:"3. Водолаз-II",
-			free:true,
-			mp3:"03-vodolaz2.mp3",
-			oga:"03-vodolaz2.ogg"
-		},
-		{
-			title:"4. Вестерн",
-			free:true,
-			mp3:"04-vestern.mp3",
-			oga:"04-vestern.ogg"
-		},
-		{
-			title:"5. Птицы",
-			free:true,
-			mp3:"05-pticy.mp3",
-			oga:"05-pticy.ogg"
-		},
-		{
-			title:"6. Отелло",
-			mp3:"06-otello.mp3",
-			oga:"06-otello.ogg"
-		},
-		{
-			title:"7. Козёл",
-			mp3:"07-kozel.mp3",
-			oga:"07-kozel.ogg"
-		},
-		{
-			title:"8. Ной & Ноль",
-			mp3:"08-noy.i.nol.mp3",
-			oga:"08-noy.i.nol.ogg"
-		},
-		{
-			title:"9. Забрало",
-			mp3:"09-zabralo.mp3",
-			oga:"09-zabralo.ogg"
-		},
-		{
-			title:"10. Возьми Меня в плен",
-			mp3:"10-vozmi.menia.v.plen.mp3",
-			oga:"10-vozmi.menia.v.plen.ogg"
-		},
-		{
-			title:"11. Блюз"
-		},
-		{
-			title:"12. Шуми, мой лес, шуми",
-			mp3:"12-shumi.moy.les.mp3",
-			oga:"12-shumi.moy.les.ogg"
-		},
-		{
-			title:"13. Детка",
-			mp3:"12-detka.mp3",
-			oga:"12-detka.ogg"
-		},
-		{
-			title:"14. Мой народ",
-			mp3:"13-moy.narod.mp3",
-			oga:"13-moy.narod.ogg"
-		}
-	], {
-        solution: "html, flash",
-		swfPath: "http://jplayer.org/latest/dist/jplayer/jquery.jplayer.swf",
-		supplied: "mp3, oga",
-		wmode: "window",
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
-});
-//]]>
-</script>
-
 
 
 
