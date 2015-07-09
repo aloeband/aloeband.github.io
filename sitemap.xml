@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://aloeband.github.io/music/mzn/index.html</loc>
-    <lastmod>2015-07-06T20:12:11.695Z</lastmod>
+    <loc>http://aloeband.github.io/music/32may/index.html</loc>
+    <lastmod>2015-07-09T14:12:32.145Z</lastmod>
   </url>
   
   <url>
-    <loc>http://aloeband.github.io/music/32may/index.html</loc>
-    <lastmod>2015-07-05T20:52:40.246Z</lastmod>
+    <loc>http://aloeband.github.io/music/mzn/index.html</loc>
+    <lastmod>2015-07-09T14:01:23.560Z</lastmod>
   </url>
   
   <url>
@@ -22,7 +22,7 @@
   </url>
   
   <url>
-    <loc>http://aloeband.github.io/2015/05/24/chocofest-15/</loc>
+    <loc>http://aloeband.github.io/publications/bass-guitarist-of-the-year/index.html</loc>
     <lastmod>2015-07-04T13:15:51.992Z</lastmod>
   </url>
   
@@ -142,13 +142,18 @@
   </url>
   
   <url>
+    <loc>http://aloeband.github.io/2015/05/24/chocofest-15/</loc>
+    <lastmod>2015-07-04T13:15:51.992Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://aloeband.github.io/links/index.html</loc>
     <lastmod>2015-07-04T13:15:51.992Z</lastmod>
   </url>
   
   <url>
-    <loc>http://aloeband.github.io/publications/bass-guitarist-of-the-year/index.html</loc>
-    <lastmod>2015-07-04T13:15:51.992Z</lastmod>
+    <loc>http://aloeband.github.io/about/index.html</loc>
+    <lastmod>2015-07-04T13:15:51.988Z</lastmod>
   </url>
   
   <url>
@@ -172,12 +177,12 @@
   </url>
   
   <url>
-    <loc>http://aloeband.github.io/about/index.html</loc>
+    <loc>http://aloeband.github.io/aloepeople/index.html</loc>
     <lastmod>2015-07-04T13:15:51.988Z</lastmod>
   </url>
   
   <url>
-    <loc>http://aloeband.github.io/aloepeople/index.html</loc>
+    <loc>http://aloeband.github.io/about/hrenology/index.html</loc>
     <lastmod>2015-07-04T13:15:51.988Z</lastmod>
   </url>
   
@@ -198,11 +203,6 @@
   
   <url>
     <loc>http://aloeband.github.io/about/aloepeople/bychkov/index.html</loc>
-    <lastmod>2015-07-04T13:15:51.988Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://aloeband.github.io/about/hrenology/index.html</loc>
     <lastmod>2015-07-04T13:15:51.988Z</lastmod>
   </url>
   
